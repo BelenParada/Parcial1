@@ -27,17 +27,8 @@ namespace PryUserParadaMB.Models
         public int phone { get; set; }
 
         [StringLength(100, ErrorMessage = "ingrese el website", MinimumLength = 5)]
-        public string website { get; set; }
-
-
-
-
-
-
-
-
-
-
+        public string website { get; set;
+        }
     }
     public class Geo
     {
